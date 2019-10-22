@@ -1,3 +1,4 @@
 一. html5 API
-  1. postMessage
-    
+  1. postMessage(message, url)
+    message为基本类型值或者可以结构性复制的对象
+    url会自动忽略除协议、域名、端口之外的信息
