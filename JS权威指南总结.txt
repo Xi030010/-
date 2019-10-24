@@ -18,7 +18,7 @@
   4. screen对象
     width, height
     availWidth, availHeight
-    
+    ![wh](./imgs/wh.png)
 
 二. html5 API
   1. postMessage(message, url)
