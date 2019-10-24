@@ -12,6 +12,13 @@
         可写，赋值会载入新文档或跳转位置
     (3) 方法——载入新文档assign()、replace()和重载当前文档reload()
   2. history对象
+    子窗口iframe的浏览历史会按时间顺序安插在主窗口的历史中
+  3. navigator对象--浏览器信息
+    userAgent
+  4. screen对象
+    width, height
+    availWidth, availHeight
+    
 
 二. html5 API
   1. postMessage(message, url)
