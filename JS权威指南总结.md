@@ -20,7 +20,7 @@
     availWidth, availHeight
 
     ![wh](./imgs/wh.png)
-    
+
     (2) document.body和document.documentElement
         offset, client, scroll width和height
         <div align="center">
@@ -28,8 +28,13 @@
           <img src="./imgs/client.png" width="500" height="300">
           <img src="./imgs/scroll.png" width="500" height="300">
         </div>
+  5. onerror错误事件处理
 
 二. html5 API
   1. postMessage(message, url)
     message为基本类型值或者可以结构性复制的对象
     url会自动忽略除协议、域名、端口之外的信息
+
+参考链接
+1. HTML 获取屏幕、浏览器、页面的高度宽度 https://www.cnblogs.com/polk6/p/5051935.html
+2. js中offset、client、scroll的区别 https://blog.csdn.net/weixin_37861326/article/details/81453593
