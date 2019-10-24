@@ -22,6 +22,7 @@
     (2) document.body和document.documentElement
         offset, client, scroll width和height
         ![offset](./imgs/offset.png)
+  <img src="./imgs/offset.png" width="250" height="250">
         ![client](./imgs/client.png)
         ![scroll](./imgs/scroll.png)
 
