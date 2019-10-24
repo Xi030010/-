@@ -16,9 +16,14 @@
   3. navigator对象--浏览器信息
     userAgent
   4. screen对象
-    width, height
+    (1) width, height
     availWidth, availHeight
     ![wh](./imgs/wh.png)
+    (2) document.body和document.documentElement
+        offset, client, scroll width和height
+        ![offset](./imgs/offset.png)
+        ![client](./imgs/client.png)
+        ![scroll](./imgs/scroll.png)
 
 二. html5 API
   1. postMessage(message, url)
