@@ -18,7 +18,9 @@
   4. screen对象
     (1) width, height
     availWidth, availHeight
+
     ![wh](./imgs/wh.png)
+    
     (2) document.body和document.documentElement
         offset, client, scroll width和height
         <div align="center">
