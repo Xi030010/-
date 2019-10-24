@@ -21,10 +21,9 @@
     ![wh](./imgs/wh.png)
     (2) document.body和document.documentElement
         offset, client, scroll width和height
-        ![offset](./imgs/offset.png)
-  <img src="./imgs/offset.png" width="250" height="250">
-        ![client](./imgs/client.png)
-        ![scroll](./imgs/scroll.png)
+        <img src="./imgs/offset.png" width="500" height="300">
+        <img src="./imgs/client.png" width="500" height="300">
+        <img src="./imgs/scroll.png" width="500" height="300">
 
 二. html5 API
   1. postMessage(message, url)
