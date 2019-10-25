@@ -1,11 +1,11 @@
-一. Web浏览器中的js（客户端js）
+一、Web浏览器中的js（客户端js）
   1. 客户端js时间线
   2. 标准模式和怪异模式
   3. 同源策略和不严格的同源策略
   4. 书签
   5. 跨站脚本，xss攻击
 
-二. window对象
+二、window对象
   1. location对象, window.location === document.location
     (1) doucment.url
     (2) URL分解属性——hash、search、host等，同时被<a>和<area>支持
@@ -29,6 +29,12 @@
           <img src="./imgs/scroll.png" width="500" height="300">
         </div>
   5. onerror错误事件处理
+  6. 多窗口和窗体
+    (1) open(), close()
+    (2) 访问窗体属性parent, self
+
+三、document文档操作
+  1. 选取文档元素
 
 二. html5 API
   1. postMessage(message, url)
