@@ -8,8 +8,6 @@
  二、window对象
   1. location对象, window.location === document.location
 
-
-
     (1) doucment.url
     (2) URL分解属性——hash、search、host等，同时被<a>和<area>支持
         可写，赋值会载入新文档或跳转位置
@@ -20,22 +18,18 @@
     userAgent
   4. screen对象
 
-
-
     (1) width, height
       - availWidth, availHeight
-
-      - ![wh](./imgs/wh.png)
+  ![wh](./imgs/wh.png)
     (2) document.body和document.documentElement
         offset, client, scroll width和height
-        
         <div align="center">
           <img src="./imgs/offset.png" width="500" height="300">
           <img src="./imgs/client.png" width="500" height="300">
           <img src="./imgs/scroll.png" width="500" height="300">
         </div>
-  5. onerror错误事件处理
-  6. 多窗口和窗体
+  1. onerror错误事件处理
+  2. 多窗口和窗体
 
 
 
@@ -47,11 +41,9 @@
     document.getElementBy..., document.querySelector...
   2. 文档遍历
 
-
-
     (1) DOM节点种类
+  ![DOM节点种类示意图](./imgs/DOM节点种类.png)
 
-      ![DOM节点种类示意图](./imgs/DOM节点种类.png)
     (2) 作为节点树--包含Document、Element、Text、Comment等节点
       parentNode
       childNodes
@@ -77,8 +69,9 @@
       createElement, createTextNode, createDocumentFragment
       appendChild, insertBefore
       removeChile, replaceChild
-    (7) 
-    
+    (7) 查询元素的几何尺寸--非实时
+      块级元素--getBoundingClientRect()--包含内边距和边框
+      行内元素--getClientRects(), 类数组
 
 二. html5 API
   1. postMessage(message, url)
