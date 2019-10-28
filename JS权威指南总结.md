@@ -44,6 +44,9 @@
   1. 选取文档元素
     document.getElementBy..., document.querySelector...
   2. 文档遍历
+
+
+
     (1) DOM节点种类
       ![DOM节点种类示意图](./imgs/DOM节点种类.png)
     (2) 作为节点树--包含Document、Element、Text、Comment等节点
@@ -80,5 +83,5 @@
     url会自动忽略除协议、域名、端口之外的信息
 
 参考链接
-1. [HTML 获取屏幕、浏览器、页面的高度宽度](https://www.cnblogs.com/polk6/p/5051935.html)
-2. [js中offset、client、scroll的区别](https://blog.csdn.net/weixin_37861326/article/details/81453593)
+  1. [HTML 获取屏幕、浏览器、页面的高度宽度](https://www.cnblogs.com/polk6/p/5051935.html)
+  2. [js中offset、client、scroll的区别](https://blog.csdn.net/weixin_37861326/article/details/81453593)
