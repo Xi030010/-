@@ -35,6 +35,30 @@
 
 三、document文档操作
   1. 选取文档元素
+    document.getElementBy..., document.querySelector...
+  2. 文档遍历
+    (1) DOM节点种类
+      ![DOM节点种类示意图](./imgs/DOM节点种类.png)
+    (2) 作为节点树--包含Document、Element、Text、Comment等节点
+      parentNode
+      childNodes
+      firstChild, lastChild
+      nextSibling, previoursSibling
+      nodeType: Document-9, Element-1, Text-3, Comment-8, DocumentFragment-11
+      nodeValue: Text节点或Comment节点的文本内容
+      nodeName: 大写形式的标签名
+    (3) 作为元素树--只包含element节点
+      children
+      firstElementChild, lastElementChild
+      nextElementSibling, previousElementSibling
+      childElementCount
+    (4) ELement节点的属性
+      setAttribute, getAttribute, 或者直接通过键值获取(如img.id)
+      hasAttribute, removeAttribute
+      数据集属性, element.dataset.x或者通过getAttribute获取
+    (5) 元素内容
+      innerHTML和outerHTML
+      textContent和innerText, textContent属性是把所有后代Text节点简单串联在一起
 
 二. html5 API
   1. postMessage(message, url)
