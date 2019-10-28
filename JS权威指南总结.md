@@ -15,7 +15,7 @@
     子窗口iframe的浏览历史会按时间顺序安插在主窗口的历史中
   3. navigator对象--浏览器信息
     userAgent
-  4. screen对象
+  4. screen对象<br>
     (1) width, height
     availWidth, availHeight
 
@@ -29,8 +29,9 @@
           <img src="./imgs/scroll.png" width="500" height="300">
         </div>
   5. onerror错误事件处理
-  6. 多窗口和窗体
+  6. 多窗口和窗体<br>
     (1) open(), close()
+    
     (2) 访问窗体属性parent, self
 
 三、document文档操作
@@ -45,7 +46,7 @@
       firstChild, lastChild
       nextSibling, previoursSibling
       nodeType: Document-9, Element-1, Text-3, Comment-8, DocumentFragment-11
-      nodeValue: Text节点或Comment节点的文本内容
+      nodeValue: Text节点或Comment节点的文本内容, 可读写
       nodeName: 大写形式的标签名
     (3) 作为元素树--只包含element节点
       children
@@ -58,7 +59,14 @@
       数据集属性, element.dataset.x或者通过getAttribute获取
     (5) 元素内容
       innerHTML和outerHTML
-      textContent和innerText, textContent属性是把所有后代Text节点简单串联在一起
+      element.textContent和element.innerText, textContent属性是把所有后代Text节点简单串联在一起
+      Text和Comment节点的nodeValue属性
+    (6) 创建、插入、删除节点
+      createElement, createTextNode, createDocumentFragment
+      appendChild, insertBefore
+      removeChile, replaceChild
+    (7) 
+    
 
 二. html5 API
   1. postMessage(message, url)
