@@ -37,7 +37,7 @@
     (2) 访问窗体属性parent, self
 
 三、document文档操作
-  1. 选取文档元素
+  1. 选取文档元素--实时
     document.getElementBy..., document.querySelector...
   2. 文档遍历
 
@@ -72,6 +72,9 @@
     (7) 查询元素的几何尺寸--非实时
       块级元素--getBoundingClientRect()--包含内边距和边框
       行内元素--getClientRects(), 类数组
+    (8) 判断查询元素位置
+      offsetLeft和offsetTop是相对于父元素的(未定位元素则相对于文档), offsetParent属性指定其父元素
+    (9) HTML表单
 
 二. html5 API
   1. postMessage(message, url)
