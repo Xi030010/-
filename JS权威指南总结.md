@@ -11,30 +11,32 @@
     (2) URL分解属性——hash、search、host等，同时被<a>和<area>支持
         可写，赋值会载入新文档或跳转位置
     (3) 方法——载入新文档assign()、replace()和重载当前文档reload()
-##  2. history对象
+## 2. history对象
     子窗口iframe的浏览历史会按时间顺序安插在主窗口的历史中
-##  3. navigator对象--浏览器信息
+## 3. navigator对象--浏览器信息
     userAgent
-##  4. screen对象
+## 4. screen对象
     (1) width, height
       - availWidth, availHeight
   ![wh](./imgs/wh.png)
+  
     (2) document.body和document.documentElement
         offset, client, scroll width和height
-        <div align="center">
-          <img src="./imgs/offset.png" width="500" height="300">
-          <img src="./imgs/client.png" width="500" height="300">
-          <img src="./imgs/scroll.png" width="500" height="300">
-        </div>
-##  5. onerror错误事件处理
-##  6. 多窗口和窗体
+  <div align="center">
+    <img src="./imgs/offset.png" width="500" height="300">
+    <img src="./imgs/client.png" width="500" height="300">
+    <img src="./imgs/scroll.png" width="500" height="300">
+  </div>
+
+## 5. onerror错误事件处理
+## 6. 多窗口和窗体
     (1) open(), close()
     (2) 访问窗体属性parent, self
 
 # 三、document文档操作
-##  1. 选取文档元素--实时
+## 1. 选取文档元素--实时
     document.getElementBy..., document.querySelector...
-##  2. 文档遍历
+## 2. 文档遍历
     (1) DOM节点种类
   ![DOM节点种类示意图](./imgs/DOM节点种类.png)
 
@@ -69,6 +71,10 @@
     (8) 判断查询元素位置
       offsetLeft和offsetTop是相对于父元素的(未定位元素则相对于文档), offsetParent属性指定其父元素
     (9) HTML表单
+
+# 四、HTTP之客户端服务端交互
+## 1. 交互方式
+    img、script标签，XMLHttpRequest(同源受限)
 
 # 二. html5 API
 ##  1. postMessage(message, url)
